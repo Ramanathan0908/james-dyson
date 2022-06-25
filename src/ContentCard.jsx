@@ -9,8 +9,8 @@ import Typography from '@mui/material/Typography';
 
 export default function ContentCard() {
     return (
-        <Box display="flex" gap="48px">
-            <Card sx={{ maxWidth: '400px', maxHeight: '300px' }}>
+        <Box display="flex" gap="48px" width="100%">
+            <Card sx={{ width: '400px', height: '300px' }}>
                 <CardContent>
                 <Typography gutterBottom variant="h2" component="div">
                     Plastic
@@ -24,7 +24,7 @@ export default function ContentCard() {
                     <Button size="small">Learn More</Button>
                 </CardActions>
             </Card>
-            <Card sx={{ maxWidth: '400px', maxHeight: '300px' }}>
+            <Card sx={{ width: '400px', height: '300px' }}>
                 <CardContent>
                 <Typography gutterBottom variant="h2" component="div">
                     Metal cans
@@ -38,7 +38,7 @@ export default function ContentCard() {
                     <Button size="small">Learn More</Button>
                 </CardActions>
             </Card>
-            <Card sx={{ maxWidth: '400px', maxHeight: '300px' }}>
+            <Card sx={{ width: '400px', height: '300px' }}>
                 <CardContent>
                 <Typography gutterBottom variant="h2" component="div">
                     Paper
@@ -52,7 +52,7 @@ export default function ContentCard() {
                     <Button size="small">Learn More</Button>
                 </CardActions>
             </Card>
-            <Card sx={{ maxWidth: '400px', maxHeight: '300px' }}>
+            <Card sx={{ width: '400px', height: '300px' }}>
                 <CardContent>
                 <Typography gutterBottom variant="h2" component="div">
                     Glass
